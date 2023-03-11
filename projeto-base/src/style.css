@@ -1,0 +1,68 @@
+/*reser css*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@300;400&family=Pacifico&display=swap');
+body{
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    color: rgb(35, 2, 2);
+    font-size: .10em;
+}*/
+
+.titulo{
+
+font-family: 'Pacifico', cursive;   
+font-size: 5.2em;
+text-align: center;
+}
+
+.titulo-h2{
+
+font-family: 'Pacifico', cursive;
+text-align: center;
+}
+
+.titulo-conteudo{
+
+font-family: 'Pacifico', cursive;
+color: red;
+text-align: center;
+font-size: 3.2em;
+}
+
+h4{
+
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Montserrat';
+}
+
+
+
+.main-container{
+
+}
+
+.imagem-carrossel{
+ height: 400px;
+ width: auto;
+ object-position:0 150%;
+ object-fit: cover; /* preencher container respeitando o espaço*/
+ overflow-y: hidden;
+}
+
+.carousel-caption .d-none d-md-block h1{
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+
+    background-color: #fff;
+}
